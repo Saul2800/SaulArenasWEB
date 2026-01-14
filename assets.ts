@@ -24,6 +24,7 @@ export const Assets = {
   // Experience Logos
   experience: {
     kaab: "https://www.kaabcode.com/img/logo.png",
+    latasf: "https://obejstrutccgpskfsufv.supabase.co/storage/v1/object/public/Saul%20Arenas%20CV/LATA.png",
     marchesi: "https://marchesi.com/wp-content/themes/marchesi/assets-mar/images/marchesi-logo.png",
     freelancer: "https://cdn.icon-icons.com/icons2/2699/PNG/512/freelancer_logo_icon_171123.png",
   },

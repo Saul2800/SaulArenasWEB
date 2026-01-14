@@ -113,6 +113,23 @@ export const getExperienceData = (lang: 'en' | 'es'): SectionData => {
         }
       },
       {
+        id: 4, // Inserting with unique ID
+        title: "LATASF",
+        subtitle: isEn ? "Technical Support" : "Soporte Técnico",
+        description: isEn
+          ? "Org focused on the scholarships. Activities: As a technical support specialist for a website, I provide assistance to users. Additionally, I am responsible for collecting and analyzing user data for future use. My role requires a combination of technical expertise, problem-solving skills, and a keen understanding of user needs to deliver effective support and utilize data-driven strategies for continuous improvement."
+          : "Organización enfocada en becas. Actividades: Como especialista en soporte técnico para un sitio web, brindo asistencia a los usuarios. Además, soy responsable de recopilar y analizar datos de los usuarios para su uso futuro. Mi rol requiere una combinación de experiencia técnica, habilidades de resolución de problemas y una profunda comprensión de las necesidades del usuario para brindar un soporte efectivo y utilizar estrategias basadas en datos para la mejora continua.",
+        tags: isEn ? ["Tech Support", "Data Analysis", "User Assistance"] : ["Soporte Técnico", "Análisis de Datos", "Asistencia al Usuario"],
+        category: "experience",
+        image: Assets.experience.latasf,
+        details: {
+          role: isEn ? "Technical Support Specialist" : "Especialista en Soporte Técnico",
+          duration: "06/2023- 01/2025",
+          techStack: isEn ? ["Web Support", "Data Analysis", "Customer Service"] : ["Soporte Web", "Análisis de Datos", "Servicio al Cliente"],
+          link: "https://latasf.org/"
+        }
+      },
+      {
         id: 2,
         title: "Marchesi Company",
         subtitle: isEn ? "Industrial Quality" : "Calidad Industrial",
