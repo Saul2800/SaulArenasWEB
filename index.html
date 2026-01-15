@@ -30,7 +30,7 @@
       // Polyfill process.env for Google GenAI SDK and Vercel deployment
       window.process = {
         env: {
-          API_KEY: "AIzaSyD5KsBRAfW6-rh-2iIHxzDcwzFuH-G2uy0"
+          API_KEY: import.meta.env.VITE_API_KEY
         }
       };
     </script>
