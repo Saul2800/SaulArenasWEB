@@ -26,6 +26,14 @@
         text-shadow: 2px 2px 4px rgba(0,0,0,0.45);
       }
     </style>
+    <script>
+      // Polyfill process.env for Google GenAI SDK and Vercel deployment
+      window.process = {
+        env: {
+          API_KEY: "AIzaSyD5KsBRAfW6-rh-2iIHxzDcwzFuH-G2uy0"
+        }
+      };
+    </script>
   <script type="importmap">
 {
   "imports": {

@@ -3,6 +3,6 @@
  * Contains API keys and other environment specific settings.
  */
 export const CONFIG = {
-  // Google API Key provided for deployment
-  API_KEY: "AIzaSyD5KsBRAfW6-rh-2iIHxzDcwzFuH-G2uy0",
+  // Access the API Key from the process.env polyfill in index.html
+  API_KEY: process.env.API_KEY,
 };
